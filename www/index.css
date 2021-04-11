@@ -1,0 +1,28 @@
+body {
+    background-color: #fef;
+}
+
+.main-section {
+    display: flex;
+}
+
+textarea {
+    height: 90vh;
+    width: 45vw;
+}
+
+#editor {
+    display: inline-block;
+    margin: 5pt;
+    border: solid #aaa;
+}
+
+#viewer {
+    display: inline-block;
+    margin: 10pt;
+    height: 90vh;
+    width: 45vw;
+    border: solid #aaa;
+    background-color: #fff;
+    overflow-y: scroll;
+}
