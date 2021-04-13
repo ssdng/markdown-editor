@@ -4,6 +4,7 @@ body {
 
 .main-section {
     display: flex;
+    width: 100vw;
 }
 
 textarea {
@@ -14,14 +15,15 @@ textarea {
 #editor {
     display: inline-block;
     margin: 5pt;
-    border: solid #aaa;
 }
 
 #viewer {
     display: inline-block;
-    margin: 10pt;
+    margin: 5pt;
     height: 90vh;
-    width: 45vw;
+    width: -webkit-fill-available;
+    width: -moz-available;
+
     border: solid #aaa;
     background-color: #fff;
     overflow-y: scroll;
